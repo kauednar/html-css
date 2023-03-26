@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: face;
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue.ttf);
+}
+
+body{
+    background-color: #E7E5C3;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #29A461, #043C19);
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.301);
+}
+
+nav#menu {
+    text-align: left;
+    text-decoration: none;
+    color: #7FE3AD;
+}
+
+nav#menu > a {
+    text-align: left;
+    text-decoration: none;
+    color: #7FE3AD;
+    padding: 15px;
+}
+
+h1#principal {
+    font-family: bebas;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+    text-align: center;
+    font-size: 3em;
+}
+ 
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 80px 0px 80px;
+    box-shadow: 10x 2px 10px black;
+}
+
+h1{
+    font-family: face;
+    color: #093D2D;
+}
+
+h2{
+    font-family: face;
+    color: #156035;
+    background-image: linear-gradient(to right, #7FE3AD, white);
+    text-indent: 5px;
+}
+
+main > p {
+    text-indent: 15px;
+}
+
+div#boxvideo{
+    padding: 20px 150px;
+    box-shadow: 1px 2px 5px black;
+    margin: 0px 80px 0px 80px;
+    background-color: #043C19;
+}
+
+div#end{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 80px 40px 80px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.322)
+    
+}
+
+section#extra{
+    background-color: #7FE3AD;
+    border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    text-indent: 15px;
+
+}
+
+section#extra > p {
+    padding: 10px;
+}
+
+h1#plus{
+    background-color: #043C19;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #043C19;
+    margin: 0x;
+    padding: 1px;
+    border: 0px;
+}
